@@ -4,7 +4,6 @@ import BlogPost from './PostCard';
 
 const Posts = () => {
     const [posts, setPosts] = useState([]);
-
     const [isAdmin, setIsAdmin] = useState(false)
 
     const ClickAdmin = () => {
